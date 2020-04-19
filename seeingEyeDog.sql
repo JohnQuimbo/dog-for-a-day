@@ -9,7 +9,7 @@ CREATE TABLE dogs (
     training_stage      number(5)       not null,
     blind_owner         varChar(20),
     primary key(id#)
-    foreign key(trainer) references trainer(#id)
+    foreign key(trainer) references trainer(id#)
 );   
 
 --DROP TABLE family CASCADE CONSTRAINTS
