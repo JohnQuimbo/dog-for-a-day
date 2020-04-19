@@ -5,10 +5,11 @@ CREATE TABLE dogs (
     breed               varChar(20),
     age                 number(4)      not null,
     family              varChar(20),
-    trainer             number(20),
+    trainer             number(5),
     training_stage      number(5)       not null,
     blind_owner         varChar(20),
     primary key(id#)
+    foreign key(trainer) references trainer(#id)
 );   
 
 --DROP TABLE family CASCADE CONSTRAINTS
