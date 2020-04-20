@@ -23,6 +23,6 @@ INSERT INTO trainer VALUES
 INSERT INTO trainer VALUES 
   (512,'Christina','Larow','91 West Avenue, Eastern PA',2019659219,'clarowluvspups@aol.com', 2 ,25000);
 --
-INSERT INTO blind_person VALUES (73472, 'Wotaru', 'Teshigawra', '812 Weebol Court, Aberdeen WA', 6918591011, 'wotaruteshi@gmail.com', '4:40', 46425 , 5);
+INSERT INTO blind_person VALUES (73472, 'Wotaru', 'Teshigawra', '812 Weebol Court, Aberdeen WA', 6918591011, 'wotaruteshi@gmail.com', '4:40', 46425 );
 --
 

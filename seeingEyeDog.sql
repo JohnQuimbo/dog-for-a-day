@@ -41,7 +41,7 @@ CREATE TABLE blind_person (
     id#             number(5)   not null,
     first_name      varchar(25) not null,
     last_name       varchar(25) not null,
-    address         varchar(25) not null,
+    address         varchar(30) not null,
     phone_number    varChar(11) not null,
     email           varChar(25),
     wait_list_time  varchar(30), 
