@@ -11,12 +11,12 @@ INSERT INTO dogs VALUES
 INSERT INTO dogs VALUES
   (62672,'Knuckle','Shitsu', 1 ,'Singer', 231 , 1 ,null);
 --
-INSERT INTO family VALUES (15819, 'Smith', '800 E Lancaster Ave, Villanova PA' , 333445555, 'smithfamily@gmail.com');
-INSERT INTO family VALUES (96202, 'Ali', '47 Oakmont Street, Boston MA' , 987654321, 'alifamily@gmail.com');
-INSERT INTO family VALUES (70203, 'Hong','51 Jackson Ave, Chicago IL',  888665555, 'hongfamily@gmail.com');
-INSERT INTO family VALUES (20591, 'Jacobs', '12 Generic Street, Randomtown NJ' , 111111100,'jacobsfamily@gmail.com');
-INSERT INTO family VALUES (91235, 'Hendrix','51 Louella Court, Wayne PA' , 444444400,'hendrixfamily@gmail.com');
-INSERT INTO family VALUES (13572, 'Singer', '72 Franklin Road, Ramsey NJ', 555555500,'singerfamily@gmail.com');
+INSERT INTO family VALUES (15819, 'Smith', 15125, '800 E Lancaster Ave, Villanova PA' , 333445555, 'smithfamily@gmail.com');
+INSERT INTO family VALUES (96202, 'Ali', 21261, '47 Oakmont Street, Boston MA' , 987654321, 'alifamily@gmail.com');
+INSERT INTO family VALUES (70203, 'Hong',31613, '51 Jackson Ave, Chicago IL',  888665555, 'hongfamily@gmail.com');
+INSERT INTO family VALUES (20591, 'Jacobs', 46425, '12 Generic Street, Randomtown NJ' , 111111100,'jacobsfamily@gmail.com');
+INSERT INTO family VALUES (91235, 'Hendrix',57347, '51 Louella Court, Wayne PA' , 444444400,'hendrixfamily@gmail.com');
+INSERT INTO family VALUES (13572, 'Singer', 62672, '72 Franklin Road, Ramsey NJ', 555555500,'singerfamily@gmail.com');
 --
 INSERT INTO trainer VALUES 
   (231,'Matthieu','Waller','89 Wood Street, Forest NY',1245125125,'mwallerthedoglover@gmail.com', 3 ,30000);
