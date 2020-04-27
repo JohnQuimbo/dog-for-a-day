@@ -26,3 +26,16 @@ INSERT INTO trainer VALUES
 INSERT INTO blind_person VALUES (73472, 'Wotaru', 'Teshigawra', '812 Weebol Court, Aberdeen WA', 6918591011, 'wotaruteshi@gmail.com', '4:40', 46425 );
 --
 
+SELECT name FROM dogs WHERE age < 3;
+
+SELECT name FROM dogs WHERE trainer = 512;
+
+SELECT name FROM dogs WHERE trainer = 231;
+
+SELECT name FROM dogs;
+
+SELECT name FROM dogs WHERE age > 3;
+
+SELECT name FROM dogs WHERE id# IN(SELECT dog_assigned FROM blind_person WHERE id# = 73472);
+
+SELECT * FROM family;
